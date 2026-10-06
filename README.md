@@ -35,3 +35,13 @@ admin@booklib.test
 
 Password:
 password
+
+## Cara Menjalankan Project
+
+1. Clone atau buka project Laravel.
+2. Jalankan XAMPP dan aktifkan Apache serta MySQL.
+3. Pastikan database `uts_nailahnuradilah_09010282529086` sudah tersedia.
+4. Jalankan migration dan seeder:
+
+```bash
+php artisan migrate --seed
